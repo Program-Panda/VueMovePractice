@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vue js App</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17"></script>
+
+<!-- 記法はBEMをカスタマイズしたもの -->
+<!-- BlockとElementは__で区切る。また、Elementの頭文字は小文字で表記 -->
+<!-- ElementとModifierは-で区切る。また、Modifierの頭文字は大文字で表記 -->
+<!-- Blockの子としてBlockが登場しても良い -->
+<!-- Elementの入れ子は避ける。HTML上の入れ子関係があっても常にBlock直下のElementであるように書く -->
+<!-- Block、Element及びModifierを2つ以上の単語で表す時は、複合語の頭文字を大文字で表記 -->
+
+<body>
+<div id="app">
+  <input type="number" v-model.number>
+</div>
+
+
+
+    <script src="https://unpkg.com/vue"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
